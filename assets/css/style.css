@@ -1,4 +1,9 @@
 body {
     color: blue;
     background-color: blanchedalmond;
+    font-family: Inter, Arial, sans-serif;
+}
+
+h1 {
+font-family: macondo, 'Times New Roman', Times, serif;
 }
