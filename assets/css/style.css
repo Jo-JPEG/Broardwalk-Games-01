@@ -73,8 +73,9 @@ h2 {
     margin-bottom: 1.5rem;
 }
 
-#new-games-section .card {
+#new-games-section .card, .card-footer {
     border: none;
+    background-color: transparent;
 }
 
 /* grid visualisation CSS for testing */
