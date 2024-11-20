@@ -78,6 +78,11 @@ h2 {
     background-color: transparent;
 }
 
+#fav-games-section .card, .card-footer {
+    border: none;
+    background-color: transparent;
+}
+
 /* grid visualisation CSS for testing */
 /* 
 .container,
