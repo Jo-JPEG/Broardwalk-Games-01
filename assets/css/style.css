@@ -84,3 +84,22 @@ h2 {
     border: 2px solid white;
     background-color: lightgray;
 } */
+
+/* media querires */
+
+
+/* medium screens (tablets, 768px and up) */
+@media screen and (min-width: 768px){
+    /* make all service cards same height for consistency */
+    #services .card-body {
+        min-height: 191px;
+    }
+}
+
+/* large devices and such 992px and up  */
+@media screen and (min-width: 992px){
+    /* make all service cards same height for consistency */
+    #services .card-body {
+        min-height: auto;
+    }
+}
