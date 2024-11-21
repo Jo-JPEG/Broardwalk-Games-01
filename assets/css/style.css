@@ -76,7 +76,7 @@ h2 {
 
 #navbar {
     background-color: var(--primary-color);
-    /* color: var(--primary-color); */
+
 }
 
 #navbar .logo {
@@ -131,6 +131,8 @@ h2 {
     color: var(--secondary-color);
     font-size: 1.2rem;
     margin-right: 15px;
+    -webkit-transition: color 0.3s ease-in-out;
+    -o-transition: color 0.3s ease-in-out;
     transition: color 0.3s ease-in-out;
 }
 
@@ -155,17 +157,6 @@ h2 {
     font-size: 1.2rem;
 }
 
-/* grid visualisation CSS for testing */
-/* 
-.container,
-.row {
-    border: 2px solid black;
-}
-
-.col-12 {
-    border: 2px solid white;
-    background-color: lightgray;
-} */
 
 /* media querires */
 
